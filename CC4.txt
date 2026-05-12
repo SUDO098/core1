@@ -1,0 +1,20 @@
+Practical 04 — Salesforce Mini Project Application
+
+Basic Steps
+
+1. Login to Salesforce Lightning Experience
+2. Open Setup
+3. Search App Manager
+4. Click New Lightning App
+5. Enter application details
+6. Click Next
+7. Configure app options
+8. Add utility items (optional)
+9. Add navigation items
+10. Assign user profiles
+11. Click Save & Finish
+12. Open App Launcher
+13. Search your app name
+14. Open application
+15. Add contacts/files if required
+16. Verify application output

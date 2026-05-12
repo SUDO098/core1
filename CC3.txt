@@ -1,0 +1,56 @@
+Practical 03 — Apex Programming using Salesforce
+
+Basic Steps
+
+1. Open Salesforce Developer Account
+2. Login to Salesforce
+3. Open Developer Console
+4. Click File → New → Apex Class
+5. Enter class name(calci) and create class
+6. Write Apex code
+   public class calci {
+
+    // Addition
+    public static Integer add(Integer a, Integer b) {
+        return a + b;
+    }
+
+    // Subtraction
+    public static Integer subtract(Integer a, Integer b) {
+        return a - b;
+    }
+
+    // Multiplication
+    public static Integer multiply(Integer a, Integer b) {
+        return a * b;
+    }
+
+    // Division
+    public static Decimal divide(Integer a, Integer b) {
+
+        if(b == 0) {
+            return 0;
+        }
+
+        return (Decimal)a / b;
+    }
+}
+7. Save code using Ctrl + S
+8. Open Debug → Open Execute Anonymous Window
+9. Write execution/debug code
+   
+    Execute Anonymous Code
+
+System.debug('Addition = ' + calci.add(10,5));
+
+System.debug('Subtraction = ' + calci.subtract(10,5));
+
+System.debug('Multiplication = ' + calci.multiply(10,5));
+
+System.debug('Division = ' + calci.divide(10,5));
+
+
+10. Click Execute
+11. Open log
+12. Click Debug Only
+13. Check output
